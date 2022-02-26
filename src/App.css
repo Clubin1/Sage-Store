@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +44,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+  height: 5rem;
+}
+.landing{
+  background-color: #c0d3e2;
+  height: 80vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.landingText{
+  color: #0a5b64;
+  width: 50rem;
+}
+.col{
+  padding-left: 5rem;
+  width: 30%;
+}
+.landingContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+
+.landingBtn{
+  width: 10rem;
+  background-color: transparent;
+  border: 2px solid #0a5b64;
+  color: #0a5b64;
+  padding: .6rem 1rem .6rem 1rem;
+  transition: 400ms ease all;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.landingBtn:hover{
+  background-color: #5adbca;
+  color: white;
+  border: 2px solid #5adbca;
+
+}
+
+h1.landingText{
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+h2.landingText{
+  font-weight: 300;
+  font-size: 1.3rem;
+}
+
+p.landingText{
+  width: 40rem;
+  color: #0a5b64;
+}
+.landingImage{
+  height: 35rem;
 }
